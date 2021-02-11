@@ -1,5 +1,5 @@
 {
-	"namespace": "oracle.fsgbu.obvam.vae.avro.entity",
+    "namespace": "oracle.fsgbu.obvam.vae.avro.entity",
     "name": "VirtualEntityNotification",
     "type":"record",
     "fields":[
