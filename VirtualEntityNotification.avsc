@@ -1,0 +1,27 @@
+{
+	"namespace": "oracle.fsgbu.obvam.vae.avro.entity",
+    "name": "VirtualEntityNotification",
+    "type":"record",
+    "fields":[
+                        {"name":"realCustomerNo","type":["null","string"], "default":null},
+                        {"name":"virtualEntityId","type":["null","string"], "default":null},
+        				{"name":"virtualEntityName", "type":["null","string"], "default":null},
+        				{"name":"defaultEntity", "type":["null","string"], "default":null},
+        				{"name":"entityType", "type":["null","string"], "default":null},
+        				{"name":"txnControllerRefNo", "type":["null","string"], "default":null},
+        				{"name":"taxIdentificationNo", "type":["null","string"], "default":null},
+        				{"name":"fatcaResponsible", "type":["null","string"], "default":null},
+        				{"name":"sanctionCheckRequired", "type":["null","string"], "default":null},
+        				{"name":"amlCustomerGroup", "type":["null","string"], "default":null},
+        				{"name":"amlRequired", "type":["null","string"], "default":null},
+        				{"name":"identificationNo", "type":["null","string"], "default":null},
+        				{"name":"identificationType", "type":["null","string"], "default":null},
+        				{"name":"lastKycDate", "type":["null","string"], "default":null},
+        				{"name":"kycReference", "type":["null","string"], "default":null},
+        				{"name":"kycStatus", "type":["null","string"], "default":null},
+        				{"name":"makerId", "type":["null","string"], "default":null},
+        				{"name":"checkerId", "type":["null","string"], "default":null},
+        				{"name":"isCorpEntity", "type":"string", "default":"N"}
+        				
+             ]
+}
